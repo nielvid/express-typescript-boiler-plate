@@ -19,5 +19,17 @@
     ],
     "rules": {
         "prettier/prettier": 2
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        }
     }
 }
